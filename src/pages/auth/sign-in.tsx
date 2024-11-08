@@ -87,7 +87,7 @@ export function SignIn() {
         </div>
 
         <Button className="flex items-end justify-end" variant="link">
-          <Link to={'/auth/forgot-password'} className="text-sm font-medium">
+          <Link to={'/'} className="text-sm font-medium">
             Esqueceu sua senha?
           </Link>
         </Button>

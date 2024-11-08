@@ -4,6 +4,7 @@ module.exports = {
   useTabs: false,
   singleQuote: true,
   trailingComma: 'all',
+  "importOrder": ["^react", "^[a-z]", "^@/"],
   bracketSpacing: true,
   printWidth: 120,
 }
