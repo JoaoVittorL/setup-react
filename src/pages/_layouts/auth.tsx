@@ -1,8 +1,8 @@
-import { Smile } from 'lucide-react'
-import { Outlet } from 'react-router-dom'
-import { Toaster } from 'sonner'
+import { Smile } from 'lucide-react';
+import { Outlet } from 'react-router-dom';
+import { Toaster } from 'sonner';
 
-import { Button } from '@/components/ui/button'
+import { Button } from '@/components/ui/button';
 
 export function AuthLayout() {
   return (
@@ -15,9 +15,7 @@ export function AuthLayout() {
           <h2 className="mb-4 text-center text-2xl font-bold">
             Bem-vindo à <strong>Undefined</strong>
           </h2>
-          <p className="mb-8 text-center text-lg">
-            Seu sistema de gerenciamento
-          </p>
+          <p className="mb-8 text-center text-lg">Seu sistema de gerenciamento</p>
 
           <Button variant="outline" className="mx-auto flex items-center gap-2">
             <Smile />
@@ -26,9 +24,7 @@ export function AuthLayout() {
 
           <div className="my-8 grid w-full grid-cols-3 items-center gap-4">
             <div className="h-[1px] bg-gray-500" />
-            <span className="text-center text-sm font-medium">
-              Ou entre com
-            </span>
+            <span className="text-center text-sm font-medium">Ou entre com</span>
             <div className="h-[1px] bg-gray-500" />
           </div>
           <Outlet />
@@ -36,5 +32,5 @@ export function AuthLayout() {
       </div>
       <Toaster position="bottom-right" richColors expand />
     </div>
-  )
+  );
 }
