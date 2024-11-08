@@ -5,7 +5,7 @@ export function Home() {
   return (
     <>
       <Helmet title="Home" />
-      <div className="flex h-screen flex-col items-center justify-center">
+      <div className="flex h-screen flex-col items-center justify-center gap-2">
         <ThemeToggle />
         <h1 className="text-3xl text-white">Home</h1>
       </div>
