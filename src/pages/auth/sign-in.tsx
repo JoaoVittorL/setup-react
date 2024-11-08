@@ -53,17 +53,18 @@ export function SignIn() {
       <Helmet title="Login" />
       <form onSubmit={handleSubmit(handleSubmitForm, onError)} className="flex w-full flex-col gap-4">
         <div className="flex flex-col gap-2">
-          <Label>Nome de usuário</Label>
+          <Label className="dark:text-gray-400">Nome de usuário</Label>
           <Input
             type="text"
             {...register('username')}
             className={`${errors.username ? 'border-red-500' : ''}`}
             aria-invalid={!!errors.username}
             aria-describedby="username-error"
+            placeholder="Digite seu nome de usuário"
           />
         </div>
         <div className="flex flex-col gap-2">
-          <Label>Senha:</Label>
+          <Label className="dark:text-gray-400">Senha:</Label>
           <div
             className={`flex h-8 items-center rounded-md border bg-transparent text-sm shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground ${errors.password ? 'border border-red-500' : ''}`}
           >
@@ -81,13 +82,17 @@ export function SignIn() {
               aria-label={showPassword ? 'Esconder senha' : 'Mostrar senha'}
               className="px-2"
             >
-              {showPassword ? <Eye className="h-4 w-4" /> : <EyeClosedIcon className="h-4 w-4" />}
+              {showPassword ? (
+                <Eye className="h-4 w-4 dark:text-gray-400" />
+              ) : (
+                <EyeClosedIcon className="h-4 w-4 dark:text-gray-400" />
+              )}
             </button>
           </div>
         </div>
 
         <Button className="flex items-end justify-end" variant="link">
-          <Link to={'/'} className="text-sm font-medium">
+          <Link to={'/'} className="text-sm font-medium dark:text-gray-400">
             Esqueceu sua senha?
           </Link>
         </Button>
