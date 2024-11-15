@@ -16,22 +16,4 @@ export default defineConfig({
     url: 'http://localhost:50789',
     reuseExistingServer: !process.env.CI,
   },
-
-  // projects: [
-  //   {
-  //     name: 'chromium',
-  //     use: { ...devices['Desktop Chrome'] },
-  //   },
-
-  //   {
-  //     name: 'firefox',
-  //     use: { ...devices['Desktop Firefox'] },
-  //   },
-
-  //   {
-  //     name: 'webkit',
-  //     use: { ...devices['Desktop Safari'] },
-  //   },
-
-  // ],
 });
