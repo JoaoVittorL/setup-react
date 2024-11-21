@@ -8,11 +8,11 @@ export function AuthLayout() {
   return (
     <div className="grid min-h-screen sm:grid-cols-[2fr_2fr]">
       <div className="relative hidden max-h-screen bg-muted p-16 sm:block">
-        <strong>Undefined</strong>
+        <strong>Forja Tech</strong>
       </div>
       <div className="flex h-screen flex-col justify-center">
         <div className="mx-auto flex w-full max-w-[640px] flex-col items-center p-16">
-          <h2 className="mb-4 text-center text-2xl font-bold dark:text-gray-400">
+          <h2 className="mb-2 text-center text-2xl font-bold dark:text-gray-400">
             Bem-vindo à <strong>Undefined</strong>
           </h2>
           <p className="mb-8 text-center text-lg dark:text-gray-400">Seu sistema de gerenciamento</p>
