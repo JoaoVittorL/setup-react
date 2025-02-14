@@ -1,9 +1,5 @@
-import { ThemeToggle } from '@/shared/components/theme/theme-toggle';
+import { ProductsPage } from "@/features/product";
 
 export function Home() {
-  return (
-    <div>
-      <ThemeToggle />
-    </div>
-  );
+  return <ProductsPage/>
 }

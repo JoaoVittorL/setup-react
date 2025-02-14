@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 
 import { AppLayout } from '../layouts/app';
 import { Home } from '../../pages/index';
-import { ProductionPage } from '@/features/product';
+import { ProductsPage } from '@/features/product';
 
 export const router = createBrowserRouter([
   {
@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: '/product',
-        element: <ProductionPage />,
+        element: <ProductsPage />,
       },
     ],
   },

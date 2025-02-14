@@ -7,6 +7,7 @@ import { router } from './shared/routes/routes';
 import { QueryClientProvider } from '@tanstack/react-query';
 import { queryClient } from './shared/lib/react-query';
 import { ThemeProvider } from './shared/components/theme/theme-provider';
+
 export function App() {
   return (
     <HelmetProvider>

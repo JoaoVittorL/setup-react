@@ -1,5 +1,4 @@
-import { ProductionPage } from '@/features/product';
-
+import { ProductsPage } from "@/features/product";
 export function ProductPage() {
-  return <ProductionPage />;
+  return <ProductsPage />;
 }
