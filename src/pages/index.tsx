@@ -1,5 +1,5 @@
-import { ProductsPage } from "@/features/product";
+import { HomePage } from "@/features/home";
 
 export function Home() {
-  return <ProductsPage/>
+  return <HomePage/>
 }

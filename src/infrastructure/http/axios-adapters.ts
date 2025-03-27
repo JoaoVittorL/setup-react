@@ -1,6 +1,6 @@
+import { HttpClient, HttpRequest, HttpResponse } from '@/core/domain/entities/http-client';
 import { env } from '@/env';
 import axios, { AxiosInstance } from 'axios';
-import { HttpClient, HttpRequest, HttpResponse } from './http-client';
 
 export class AxiosAdapter implements HttpClient {
   private api: AxiosInstance;
