@@ -28,6 +28,13 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+
+    --button-default-bg: 120 70% 40%; 
+    --button-default-foreground: 0 0% 100%; 
+    --button-secondary-bg: 220 70% 50%;
+    --button-secondary-foreground: 0 0% 100%; 
+    --button-destructive-bg: 0 70% 50%; 
+    --button-destructive-foreground: 0 0% 100%;
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -54,8 +61,16 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+
+    --button-default-bg: 120 50% 30%; 
+    --button-default-foreground: 0 0% 100%;
+    --button-secondary-bg: 220 50% 40%; 
+    --button-secondary-foreground: 0 0% 100%;
+    --button-destructive-bg: 0 50% 30%;
+    --button-destructive-foreground: 0 0% 100%;
   }
 }
+
 @layer base {
   * {
     @apply border-border;

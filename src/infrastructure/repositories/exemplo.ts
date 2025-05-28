@@ -1,5 +1,5 @@
 import { HttpClient } from '@/core/domain/entities/http-client';
-import {ExemploRepository } from '../../core/domain/repositories/exemplo-repository';
+import {ExemploRepository } from '../../core/domain/repositories/exemplo';
 
 export class Repository implements ExemploRepository {
   constructor(private readonly httpClient: HttpClient) {}

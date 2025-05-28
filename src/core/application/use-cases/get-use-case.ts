@@ -1,4 +1,4 @@
-import { ExemploRepository } from "@/core/domain/repositories/exemplo-repository";
+import { ExemploRepository } from "@/core/domain/repositories/exemplo";
 
 export class getUseCase {
   constructor(private readonly repository: ExemploRepository) {}
