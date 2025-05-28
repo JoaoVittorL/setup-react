@@ -35,8 +35,8 @@ setup-react/
 ├── vite.config.ts        # Configuração do Vite (build, dev server, plugins)
 ├── tsconfig.json         # Configuração principal do TypeScript
 ├── package.json          # Dependências e scripts do projeto
-└── README.md             # Este arquivo 
-```text
+└── README.md             # Este arquivo
+```
 
 
 ### Principais Camadas:
