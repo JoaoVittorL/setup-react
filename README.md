@@ -8,6 +8,7 @@ O projeto segue uma arquitetura limpa e modular, inspirada em princípios de **C
 
 A estrutura de pastas principal é organizada da seguinte forma:
 
+```text
 setup-react/
 ├── public/               # Arquivos estáticos e mock Service Worker
 ├── src/
@@ -34,7 +35,9 @@ setup-react/
 ├── vite.config.ts        # Configuração do Vite (build, dev server, plugins)
 ├── tsconfig.json         # Configuração principal do TypeScript
 ├── package.json          # Dependências e scripts do projeto
-└── README.md             # Este arquivo
+└── README.md             # Este arquivo 
+```text
+
 
 ### Principais Camadas:
 
